@@ -17,16 +17,13 @@
 }
 
 .banner-btn {
+  margin: 5px;
   width: 100px;
   height: 40px;
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
   border: none;
   cursor: pointer;
-}
-
-.banner-btn:last-child {
-  margin-left: 50px;
 }
 
 .banner-btn:hover {
@@ -52,10 +49,10 @@
 
 @media screen and (max-width: 584px) {
   .info-container {
-    width: 80%;
+    width: 90%;
+    padding: 100px 5%;
   }
 }
-
 @media screen and (max-width: 738px) {
   .banner {
     height: 600px;
