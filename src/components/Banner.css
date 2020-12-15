@@ -49,3 +49,19 @@
     #111
   );
 }
+
+@media screen and (max-width: 584px) {
+  .info-container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 738px) {
+  .banner {
+    height: 600px;
+  }
+
+  .info-container {
+    height: 500px;
+  }
+}
